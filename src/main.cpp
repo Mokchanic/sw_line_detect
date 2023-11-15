@@ -200,7 +200,7 @@ void n_window_sliding(int left_mid_point, int right_mid_point, cv::Mat roi, [[ma
 
 	// 방향이 항상 아래를 향하도록 만들기 위해 단위 벡터의 방향을 바꿔준다.
 	if (left_line[1] > 0) {
-		left_line[1] = -left_line[1];
+		left_line[1] = left_line[1];
 	}
 	if (right_line[1] > 0) {
 		right_line[1] = right_line[1];
